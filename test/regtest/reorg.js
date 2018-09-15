@@ -8,7 +8,7 @@ var rimraf = require('rimraf');
 var mkdirp = require('mkdirp');
 var fs = require('fs');
 var p2p = require('bitcore-p2p');
-var bitcore = require('bitcore-lib');
+var bitcore = require('bitcore-lib-cash');
 var Networks = bitcore.Networks;
 var Header = bitcore.BlockHeader;
 var Block = bitcore.Block;
@@ -273,4 +273,3 @@ describe('Reorg', function() {
   });
 
 });
-
